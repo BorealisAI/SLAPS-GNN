@@ -1,0 +1,12 @@
+name: slaps
+channels:
+  - anaconda
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.7
+  - pip
+  - pip:
+      - --find-links https://download.pytorch.org/whl/torch_stable.html
+      - --find-links https://pytorch-geometric.com/whl/torch-1.5.0.html
+      - --requirement requirements.txt

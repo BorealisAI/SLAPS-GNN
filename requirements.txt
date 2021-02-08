@@ -1,0 +1,11 @@
+dgl-cu92==0.5.2
+numpy==1.18.5
+ogb
+scikit-learn==0.21.3
+scipy==1.2.1
+torch-cluster==latest+cu92
+torch-geometric
+torch-scatter==latest+cu92
+torch-sparse==latest+cu92
+torch-spline-conv==latest+cu92
+torch==1.5.1+cu92
