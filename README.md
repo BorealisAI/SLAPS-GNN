@@ -182,7 +182,7 @@ python main.py -dataset citeseer -ntrials 10 -epochs_adj 2000 -lr 0.01 -lr_adj 0
 Run the following command:
 
 ```bash
-python main.py -dataset pubmed -ntrials 10 -epochs_adj 2000 -lr 0.01 -lr_adj 0.01 -w_decay 0.0005 -nlayers 2 -nlayers_adj 2 -hidden 32 -hidden_adj 128 -dropout1 0.5 -dropout2 0.5 -dropout_adj1 0.5 -dropout_adj2 0.5 -k 15 -lambda_ 10.0 -nr 5 -ratio 10 -model end2end -sparse 0 -gen_mode 1 -non_linearity relu -mlp_h 500 -mlp_act relu -epoch_d 5 -sparse 1
+python main.py -dataset pubmed -ntrials 10 -epochs_adj 2000 -lr 0.01 -lr_adj 0.01 -w_decay 0.0005 -nlayers 2 -nlayers_adj 2 -hidden 32 -hidden_adj 128 -dropout1 0.5 -dropout2 0.5 -dropout_adj1 0.5 -dropout_adj2 0.5 -k 15 -lambda_ 10.0 -nr 5 -ratio 10 -model end2end -gen_mode 1 -non_linearity relu -mlp_h 500 -mlp_act relu -epoch_d 5 -sparse 1
 ```
 
 #### MLP-D
