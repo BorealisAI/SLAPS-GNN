@@ -361,7 +361,7 @@ if __name__ == '__main__':
     parser.add_argument('-loss', type=str, default="mse", choices=['mse', 'bce'])
     args = parser.parse_args()
 
-    experiment = Experiment()
+    experiment = Experiment() #initialize experiment
 
     if args.model == "end2end":
         experiment.train_end_to_end(args)
