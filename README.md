@@ -211,4 +211,13 @@ Run the following command:
 python main.py -dataset ogbn-arxiv -ntrials 10 -epochs_adj 2000 -lr 0.01 -lr_adj 0.001 -w_decay 0.0 -nlayers 2 -nlayers_adj 2 -hidden 256 -hidden_adj 256 -dropout1 0.5 -dropout2 0.5 -dropout_adj1 0.5 -dropout_adj2 0.25 -k 15 -lambda_ 10.0 -nr 5 -ratio 100 -model end2end -sparse 0 -gen_mode 2 -non_linearity relu -mlp_act relu -epoch_d 2001 -sparse 1 -loss mse -noise normal
 ```
 
+# Cite SLAPS
+If you use this package for published work, please cite the following:
+
+    @inproceedigs{fatemi2021slaps,
+      title={SLAPS: Self-Supervision Improves Structure Learning for Graph Neural Networks},
+      author={Fatemi, Bahare and Asri, Layla El and Kazemi, Seyed Mehran},
+      booktitle={Advances in Neural Information Processing Systems},
+      year={2021}
+    }
 
